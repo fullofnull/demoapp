@@ -1,15 +1,17 @@
 # Java & Gradle
 /build/
 /.gradle/
+!/gradle/wrapper/gradle-wrapper.jar  # <- 이 줄 추가!
 /out/
 *.class
 *.jar
-*.log
+!gradle-wrapper.jar                  # <- 이 줄 추가!
 
 # IDE
 /.idea/
-/*.iml
+*.iml
 
 # OS
 .DS_Store
 Thumbs.db
+
