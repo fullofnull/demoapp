@@ -1,18 +1,24 @@
-# Java & Gradle
+# Java build outputs
 /build/
-/.gradle/
-!/gradle/wrapper/gradle-wrapper.jar  # <- 이 줄 추가!
-/out/
 *.class
 *.jar
-!gradle/wrapper/gradle-wrapper.jar   # <- 이 줄 추가!
-!gradle-wrapper.jar                  # <- 이 줄 추가!
 
-# IDE
+# Gradle
+.gradle/
+!gradle/wrapper/gradle-wrapper.jar
+!gradle-wrapper.jar
+
+# IntelliJ IDEA
 /.idea/
 *.iml
 
-# OS
+# macOS
 .DS_Store
+
+# Windows
 Thumbs.db
+
+# Optional: VSCode
+.vscode/
+
 
