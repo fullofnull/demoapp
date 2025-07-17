@@ -12,8 +12,8 @@ build
 deploy/kubernetes/
 deploy/.dockerignore
 
-# ❗ 아래 항목은 제외하지 마세요
-# gradlew
-# gradle/wrapper/gradle-wrapper.jar
-# gradle/wrapper/gradle-wrapper.properties
+# ❗ gradlew 및 gradle wrapper 파일 제외하지 않음 (허용)
+!gradlew
+!gradle/wrapper/gradle-wrapper.jar
+!gradle/wrapper/gradle-wrapper.properties
 
