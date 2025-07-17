@@ -1,8 +1,19 @@
+# 빌드 불필요한 캐시 및 출력물
 .gradle
 build
+
+# Git 및 IDE 관련
 .git
 .gitignore
 *.iml
 .idea
-deploy/.dockerignore
+
+# 배포 관련 (쿠버네티스 등)
 deploy/kubernetes/
+deploy/.dockerignore
+
+# ❗ 아래 항목은 제외하지 마세요
+# gradlew
+# gradle/wrapper/gradle-wrapper.jar
+# gradle/wrapper/gradle-wrapper.properties
+
