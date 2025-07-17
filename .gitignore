@@ -5,6 +5,7 @@
 /out/
 *.class
 *.jar
+!gradle/wrapper/gradle-wrapper.jar   # <- 이 줄 추가!
 !gradle-wrapper.jar                  # <- 이 줄 추가!
 
 # IDE
